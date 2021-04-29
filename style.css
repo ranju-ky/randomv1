@@ -1,0 +1,16 @@
+h1{
+    color: aqua;
+    text-align: center;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+}
+#botton{
+    border: 5px solid blue;
+    width: 10%;
+    text-align: center;
+
+
+}
