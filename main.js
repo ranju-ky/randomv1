@@ -1,17 +1,17 @@
 const boton = document.getElementById("botton");
 
-let name = ["ana", "marta", "inga", "ranju"];
+let names = ["Alisa", "Amanda", "Ana G.", "Ana L.", "Angie", "Clau", "Daniela R.", "Daniela T.", "Eliana", "Flo", "Gaby", "Leo", "Inga",
+   "Pepi", "María Laura", "Marta", "Nicole", "Olga", "Yeraldin", "Ranju", "Rosangely", "Sònia", "Taiza", "Yasmin"];
 
-function random(){
-   console.log(name[Math.floor(Math.random() * (name.length))]);
+function showName() {
+   document.getElementById("box").innerHTML = names[Math.floor(Math.random() * (names.length))];
 }
 
 
-boton.addEventListener("click", random);
+boton.addEventListener("click", showName);
 
 
-   let memberlist = document.getElementById('memberlist');
-   console.log(memberlist.innerHTML);
+
 
 
 
