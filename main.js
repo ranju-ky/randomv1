@@ -8,3 +8,12 @@ function random(){
 
 
 boton.addEventListener("click", random);
+
+
+   let memberlist = document.getElementById('memberlist');
+   console.log(memberlist.innerHTML);
+
+
+
+
+
