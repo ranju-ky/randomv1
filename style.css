@@ -1,3 +1,9 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("images/cortina.gif");
+    background-size: cover;
+}
+
 h1 {
     color: aqua;
     text-align: center;
@@ -22,8 +28,8 @@ h1 {
     border: 5px solid blue;
     width: 10%;
     text-align: center;
-
 }
+
 @media screen and (max-width: 360px) {
     body {
         border-radius: 15px;
