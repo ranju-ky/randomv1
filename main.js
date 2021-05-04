@@ -15,7 +15,9 @@ function showName() {
 
 boton.addEventListener("click", showName);
 
+const reload = document.getElementById("reinicio");
 
+reload.addEventListener('click', _ => {location.reload();});
 
 
 
