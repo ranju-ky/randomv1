@@ -16,6 +16,8 @@ function showName() {
 
     names.splice(randomNumber, 1);
 
+    document.body.style.backgroundImage = "url('images/cortina.gif')";
+
 }
 
 boton.addEventListener("click", showName);
