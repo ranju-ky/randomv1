@@ -13,22 +13,34 @@ h1 {
     display: flex;
     justify-content: space-evenly;
 }
-#botton {
-    border: 5px solid blue;
+button {
     width: 10%;
+    height: 50px;
+    border-radius: 20px;
     text-align: center;
+    font-size: 25px;
 }
+
+.frame{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 #box {
-    border: 5px solid blue;
     width: 30%;
+    margin-top: 290px;
+    height: 80px;
+    font-style: bold;
+    font-size: 30px;
+    color: white;
     text-align: center;
 
+
+
 }
-#reinicio {
-    border: 5px solid blue;
-    width: 10%;
-    text-align: center;
-}
+
 
 @media screen and (max-width: 360px) {
     body {
