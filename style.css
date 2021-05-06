@@ -3,7 +3,6 @@ body {
     background-image: url("images/cortina.gif");
     background-size: cover;
 }
-
 h1 {
     color: white;
     text-align: center;
@@ -21,14 +20,10 @@ button {
     text-align: center;
     font-size: 25px;
 }
-
 .frame{
     display: flex;
     justify-content: center;
 }
-
-
-
 #box {
 
     margin-top: 180px;
@@ -36,12 +31,7 @@ button {
     font-size: 90px;
     color: white;
     text-align: center;
-
-
-
 }
-
-
 @media screen and (max-width: 360px) {
     body {
         border-radius: 15px;
