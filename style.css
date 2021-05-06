@@ -5,8 +5,9 @@ body {
 }
 
 h1 {
-    color: aqua;
+    color: white;
     text-align: center;
+    font-size: 60px;
 }
 .container {
 
@@ -29,8 +30,8 @@ button {
 
 
 #box {
-    width: 30%;
-    margin-top: 290px;
+
+    margin-top: 180px;
     height: 90px;
     font-size: 90px;
     color: white;
