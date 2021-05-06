@@ -1,5 +1,5 @@
 const boton = document.getElementById("botton");
-
+const gif = document.body.style.backgroundImage;
 let names = ["Alisa", "Amanda", "Ana G.", "Ana L.", "Angie", "Clau", "Daniela R.", "Daniela T.", "Eliana", "Flo", "Gaby", "Leo", "Inga",
    "Pepi", "María Laura", "Marta", "Nicole", "Olga", "Yeraldin", "Ranju", "Rosangely", "Sònia", "Taiza", "Yasmin"];
 
@@ -10,18 +10,21 @@ function showName() {
         return document.getElementById('box').innerHTML = 'Please restart';
     }
     names.splice(randomNumber, 1);
-    setTimeout(function(){
-        document.body.innerHTML = url("images/cortina.gif");
-    },6000);
+    setTimeout(function(){ gif },6000);
+    function stopTime() {
+       clearTimeout(gif);
+    }
+    gif = setTimeout(stopTime, 0);
+    function startTime() {
+
+    }
 }
-/*function timeOut(){
-    setTimeout(function(){
-        document.body.innerHTML = url("images/cortina.gif");
-    },0);
-    }*/
+}
+
 boton.addEventListener("click", showName);
 const reload = document.getElementById("reinicio");
 reload.addEventListener('click', _ => {location.reload();});
+
 
 
 
