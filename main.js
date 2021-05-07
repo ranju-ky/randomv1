@@ -7,9 +7,9 @@ function animateCortina() {
     document.body.style.backgroundImage= `url("images/cortina.gif")`;
 }
 
-function showName() {
-    animateCortina()
+function escogervoluntaria() {
     let randomNumber = Math.floor(Math.random() * names.length);
+
     document.getElementById("box").innerHTML = names[randomNumber]
     if (names[randomNumber] === undefined) {
         return document.getElementById('box').innerHTML = 'Please restart';
@@ -17,17 +17,12 @@ function showName() {
     names.splice(randomNumber, 1);
 }
 
+function showName() {
+    animateCortina()
+    setTimeout(escogervoluntaria,6000);
+}
+
 boton.addEventListener("click", showName);
 const reload = document.getElementById("reinicio");
 reload.addEventListener('click', _ => {location.reload();});
-
-
-
-
-
-
-
-
-
-
 
