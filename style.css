@@ -41,7 +41,12 @@ button {
     text-align: center;
 }
 @media screen and (max-width: 360px) {
-    body {
-        border-radius: 15px;
+    h1 {
+       font-size: 30px;
+
+    }
+    button {
+        font-size: 15px;
+        width: 75px;
     }
 }
