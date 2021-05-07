@@ -11,14 +11,22 @@ h1 {
 .container {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 button {
-    width: 10%;
+    width: 150px;
     height: 50px;
+    cursor: pointer;
     border-radius: 20px;
     text-align: center;
     font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+
+
+
+
 }
 .frame{
     display: flex;
